@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/row">
+	<ImageView
+	    android:id="@+id/imgPreview"
+	    android:layout_width="82dp"
+	    android:layout_height="55dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginRight="5dp"
+	    android:scaleType="centerCrop"
+	    android:background="@color/image_background"/>	
+	<LinearLayout
+		android:id="@+id/lytItem"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_toRightOf="@+id/imgPreview"
+	>
+		<TextView 
+			android:id="@+id/txtRecipeName" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textStyle="bold"
+			android:textColor="@color/text"
+			android:textSize="16sp"/>
+		<TextView 
+			android:id="@+id/txtReadyIn"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@color/text"
+			android:textSize="14sp"/>
+	</LinearLayout>
+</RelativeLayout>

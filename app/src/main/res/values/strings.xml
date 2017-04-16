@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RecipesAppActivity!</string>
+    <string name="app_name">Recipes App</string>
+    <string name="search_by">Search by name</string>
+    <string name="search">Search</string>
+    <string name="summary">Summary</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="directions">Directions</string>
+    <string name="alert">Recipe not found.</string>
+
+</resources>

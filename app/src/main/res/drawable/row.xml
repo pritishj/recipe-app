@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- this code is used to customize the list style -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- when one of item on the list pressed -->
+    <item android:state_pressed="true">
+        <shape>
+            <gradient 
+                android:startColor="#FBD188"
+                android:endColor="#FBC86E"
+                android:angle="-90"/>
+            <padding 
+                android:left="5dip"
+                android:top="5dip"
+                android:right="5dip"
+                android:bottom="5dip"/>
+        </shape>
+    </item>
+    
+    <!-- when one of item on the list focused -->
+    <item android:state_focused="true">
+        <shape>
+            <gradient 
+                android:startColor="#FBD188"
+                android:endColor="#FBC86E"
+                android:angle="-90"/>
+            <padding 
+                android:left="5dip"
+                android:top="5dip"
+                android:right="5dip"
+                android:bottom="5dip"/>
+        </shape>
+    </item>
+    
+    <!-- when one of item on the list in normal -->
+    <item>
+        <shape>
+            <gradient 
+                android:startColor="#FEE8C1"
+                android:endColor="#FDDFAA"
+                android:angle="-90"/>
+            <padding 
+                android:left="5dip"
+                android:top="5dip"
+                android:right="5dip"
+                android:bottom="5dip"/>
+        </shape>
+    </item>
+    
+    
+
+    
+</selector>

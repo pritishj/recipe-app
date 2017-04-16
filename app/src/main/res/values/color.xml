@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_app">#FFFFFF</color>
+    <color name="text">#101010</color>
+    <color name="image_background">#83817D</color>
+    <color name="background">#FEE8C1</color>
+    <color name="splash_background">#8c0000</color>
+    <color name="separator">#B2B2B2</color>
+    <color name="search_background">#101010</color>
+    <color name="text_button">#FFFFFF</color>
+</resources>

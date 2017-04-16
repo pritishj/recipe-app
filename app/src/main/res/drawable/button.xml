@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- this code is used to customize the button style -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- when search button pressed -->
+    <item android:state_pressed="true">
+		<shape>
+			<gradient
+				android:startColor="#FFA21E"
+				android:endColor="#E58700"
+				android:angle="-90"/>
+            <corners 
+                android:radius="5dip"/>
+            <stroke 
+                android:width="1dip"
+                android:color="#FFA21E"/>
+			<padding
+				android:left="10dip"
+				android:right="10dip"
+				android:top="10dip"
+				android:bottom="10dip"/>
+		</shape>
+	</item>	
+	
+    <!-- when search button focused -->
+	<item android:state_focused="true">
+		<shape>
+			<gradient
+				android:startColor="#FFA21E"
+				android:endColor="#E58700"
+				android:angle="-90"/>
+            <corners 
+                android:radius="5dip"/>
+            <stroke 
+                android:width="1dip"
+                android:color="#FFA21E"/>
+			<padding
+				android:left="10dip"
+				android:right="10dip"
+				android:top="10dip"
+				android:bottom="10dip"/>
+		</shape>
+	</item>	
+	
+	<!-- when search button in normal -->
+    <item>
+        <shape>
+            <gradient 
+                android:startColor="#B80000"
+                android:centerColor="#8F0000"
+                android:endColor="#660000"
+                android:angle="-90"/>
+            <corners 
+                android:radius="5dip"/>
+            <stroke 
+                android:width="1dip"
+                android:color="#B80000"/>
+            <padding
+                android:left="10dip"
+                android:top="10dip"
+                android:right="10dip"
+                android:bottom="10dip"/>
+        </shape>
+    </item>
+
+</selector>

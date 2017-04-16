@@ -1,0 +1,77 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\Pritish\AndroidStudioProjects\Recipes App1
+                                              -    
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* APK\
+* APK\Recipes App admob.apk
+* APK\Recipes App.apk
+* Project\
+* Project\Recipes App Admob.zip
+* Project\RecipesApp.zip
+* documentation\
+* documentation\assets\
+* documentation\assets\images\
+* documentation\assets\images\admob_id.png
+* documentation\assets\images\app_name.png
+* documentation\assets\images\compile.png
+* documentation\assets\images\device_id.png
+* documentation\assets\images\emulator.png
+* documentation\assets\images\import_screenshot.png
+* documentation\assets\images\renaming_package.png
+* documentation\assets\images\sqlite_database.png
+* documentation\css\
+* documentation\css\documenter_style.css
+* documentation\css\img\
+* documentation\css\img\info.png
+* documentation\css\img\pre_bg.png
+* documentation\css\img\warning.png
+* documentation\css\shDocumenter.css
+* documentation\index.html
+* documentation\js\
+* documentation\js\jquery.1.6.4.js
+* documentation\js\jquery.easing.js
+* documentation\js\jquery.scrollTo-1.4.2-min.js
+* documentation\js\script.js
+* documentation\js\shBrushPlain.js
+* documentation\js\shCore.js
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
